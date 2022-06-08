@@ -47,8 +47,8 @@ function deleteCheck(e) {
     const todo = item.parentElement;
     // Animation Here
     todo.classList.add("fall");
-    removeLocalTodos(todo);
-    todo.addEventListener("transitionend", function () {
+
+    todo.addEventListener("transitionend", () => {
       todo.remove();
     });
   }
@@ -56,6 +56,9 @@ function deleteCheck(e) {
   if (item.classList[0] === "complete-btn") {
     const todo = item.parentElement;
     todo.classList.toggle("completed");
+
+    // save to complete list or remove from ccomplete list based on whether collected class is there or not
+    //then load them each time with completed class appended
   }
 }
 function filterTodo(e) {
@@ -85,6 +88,8 @@ function filterTodo(e) {
 }
 // Local dtorage
 function saveLocalTodos(todo) {
+  //create list for saved item which is based on whether the classlist contains completed class or not
+  //
   // Check do i already have something in local storage
   let todos;
   if (localStorage.getItem("todos") === null) {
@@ -97,6 +102,9 @@ function saveLocalTodos(todo) {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
 function getTodos() {
+  //try to load listofsaved/completed item
+  // while getting the div check wthether that todo have classlist of completed
+  //based on wthether the classlist contains completed or not we will add o
   console.log("hello");
   let todos;
   if (localStorage.getItem("todos") === null) {
