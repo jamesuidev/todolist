@@ -1,14 +1,15 @@
-# X Company-Login Page task
+# Todo List
 
-![Design preview for the NFT preview card component coding challenge](./images/DashboardUI.png)
-![Design preview for the NFT preview card component coding challenge](./images/Popup.png)
+![Design preview for the NFT preview card component coding challenge](./docimg.jpg)
 
-## The challenge Task
+# Features
 
-- [Task PDF ](https://drive.google.com/file/d/1P9yaL0UoaNXWZoDMSbsiEhBWBc2OiXVd/view?usp=sharing)
+1 : Adding,Deleting and Marking(toggling) the item
+2 : Filter
+3 : Local Storage
 
-## Deploying your project
+## Live Project
 
-- [GitHub Pages](https://jamesuidev.github.io/x-company-xloginpage/)
+- [GitHub Pages]()
 
 - [Netlify](https://www.netlify.com/)
