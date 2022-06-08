@@ -4,12 +4,12 @@
 
 # Features
 
-1 : Adding,Deleting and Marking(toggling) the item
-2 : Filter
-3 : Local Storage
+1 : Adding,Deleting and Marking(toggling) the item <br />
+2 : Filter <br />
+3 : Local Storage <br />
 
 ## Live Project
 
-- [GitHub Pages]()
+- [GitHub Pages](https://jamesuidev.github.io/todolist/)
 
 - [Netlify](https://www.netlify.com/)
